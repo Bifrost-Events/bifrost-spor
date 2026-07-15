@@ -22,6 +22,7 @@ if (\App\Support\Environment::isDevelopment() || (($_ENV['APP_DEBUG'] ?? 'false'
 }
 
 \App\Support\Config::load('app');
+\App\Support\ExampleDataSeeder::seedIfNeeded($basePath);
 
 return [
     'basePath' => $basePath,

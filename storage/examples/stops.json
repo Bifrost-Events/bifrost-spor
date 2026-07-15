@@ -1,20 +1,1004 @@
 {
-  "schema_version": 1,
-  "items": [
-    {
-      "id": "stop_01EXAMPLE0000000000000001",
-      "route_id": "route_01EXAMPLE0000000000000001",
-      "title": "Velkommen",
-      "slug": "velkommen",
-      "body": "Her starter løypa.",
-      "image_path": null,
-      "position": 1,
-      "qr_token": "F6Q3N8K2",
-      "status": "published",
-      "latitude": null,
-      "longitude": null,
-      "created_at": "2026-07-14T08:35:00+02:00",
-      "updated_at": "2026-07-14T08:35:00+02:00"
-    }
-  ]
+    "schema_version": 1,
+    "items": [
+        {
+            "id": "stop_01EXAMPLE0000000000000001",
+            "route_id": "route_01EXAMPLE0000000000000001",
+            "title": "Velkommen",
+            "slug": "velkommen",
+            "body": "Velkommen til Bjørgan natursti! Løypa er ca. 1,5 km og tar 30–45 minutter. Følg markeringene, hold deg på stien og ta med det du tar med deg hjem igjen.",
+            "question": {
+                "text": "Hva er viktigst for å ta vare på naturen når du går en sti?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "La søppel ligge hvis det er langt til søppelkasse"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Holde deg på merkede stier og ta med all søppel"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Plukke blomster med hjem som suvenir"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Lage nye snarveier for å spare tid"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 1,
+            "qr_token": "F6Q3N8K2",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-14T08:35:00+02:00",
+            "updated_at": "2026-07-14T21:00:00+02:00"
+        },
+        {
+            "id": "stop_01JNQGRANSKOG00000000001",
+            "route_id": "route_01EXAMPLE0000000000000001",
+            "title": "Granskogen",
+            "slug": "granskogen",
+            "body": "Du står nå i en typisk granskog. Gran er Norges vanligste treslag og gir ly til både fugler og smådyr. Legg merke til hvor mørkt det er på bakken — få planter trives i skyggen her.",
+            "question": {
+                "text": "Hvilket treslag er vanligst i Norge?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Eik"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Gran"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Palme"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Oliven"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 2,
+            "qr_token": "K7R4M2NP",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-14T20:50:00+02:00",
+            "updated_at": "2026-07-14T21:00:00+02:00"
+        },
+        {
+            "id": "stop_01JNQBEKKEN0000000000001",
+            "route_id": "route_01EXAMPLE0000000000000001",
+            "title": "Bekken",
+            "slug": "bekken",
+            "body": "Dette lille bekken renner fra fjellet og gir liv til skogen rundt. Rent vann er viktig for insekter, fisk og planter. Bekken kan endre form etter regn og snøsmelting.",
+            "question": {
+                "text": "Hvorfor er rent vann viktig i naturen?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Det gjør skogen mørkere"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Det er viktig for dyr og planter som lever i og ved vannet"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Det stopper vekst av trær"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Det er bare viktig om vinteren"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 3,
+            "qr_token": "T9W5H3VQ",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-14T20:50:00+02:00",
+            "updated_at": "2026-07-14T21:00:00+02:00"
+        },
+        {
+            "id": "stop_01JNQUSTIKT000000000001",
+            "route_id": "route_01EXAMPLE0000000000000001",
+            "title": "Utsiktspunktet",
+            "slug": "utsiktspunktet",
+            "body": "Herfra ser du utover dalen. Landskapet er formet av is, vann og vind gjennom tusenvis av år. På klare dager kan du se langt — ta en pause og nyt utsikten.",
+            "question": {
+                "text": "Hva har i stor grad formet dette landskapet over tid?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Kun mennesker de siste 10 årene"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Is, vann og vind over lang tid"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Kun vulkanutbrudd i fjor"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "At trær aldri endrer seg"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 4,
+            "qr_token": "B4X8D6YZ",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-14T20:50:00+02:00",
+            "updated_at": "2026-07-14T21:00:00+02:00"
+        },
+        {
+            "id": "stop_01JNQLYNG0000000000001",
+            "route_id": "route_01EXAMPLE0000000000000001",
+            "title": "Lynghei",
+            "slug": "lynghei",
+            "body": "Lyng er et typisk plantesamfunn på mager jord og i høyereliggende strøk. Den blomstrer om sommeren og er viktig for pollinatorer som bier og humler.",
+            "question": {
+                "text": "Hvem har nytte av lyng når den blomstrer?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Kun fisk i bekken"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Pollinatorer som bier og humler"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Ingen dyr bruker planter"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Bare trær i skogen"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 5,
+            "qr_token": "P2N7K5RW",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-14T20:50:00+02:00",
+            "updated_at": "2026-07-14T21:00:00+02:00"
+        },
+        {
+            "id": "stop_01JNQMAAL00000000000001",
+            "route_id": "route_01EXAMPLE0000000000000001",
+            "title": "Mål",
+            "slug": "mal",
+            "body": "Gratulerer — du har fullført Bjørgan natursti! Sjekk resultattavlen for å se hvordan du ligger an i konkurransen.",
+            "question": {
+                "text": "Hva bør du gjøre etter å ha fullført løypa?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Se resultattavlen og sammenligne poeng"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Glem alt du har lært"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Etterlate søppel som takk for turen"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Ødelegge markeringer langs stien"
+                    }
+                ],
+                "correct_option_id": "opt_1"
+            },
+            "image_path": null,
+            "position": 6,
+            "qr_token": "M8Q3V6ST",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-14T20:50:00+02:00",
+            "updated_at": "2026-07-14T21:00:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJZ9840WXF5JAMAZC7",
+            "route_id": "route_01KXKRE2CJ20WFH9X04K8QPFYS",
+            "title": "Myrekanten",
+            "slug": "myrekanten",
+            "body": "Myra er et unikt økosystem. Torvmoser holder vannet, og mange insekter lever her. Hold deg på stien så du ikke tråkker opp vegetasjonen.",
+            "question": {
+                "text": "Hva er typisk for en myr?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Mykje stein og lite vann"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Torvmoser som holder på vann"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Bare sand og kaktus"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Kun saltvann"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 1,
+            "qr_token": "R3MP4DTJ",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJDQKHKPQKAZX5F6X2",
+            "route_id": "route_01KXKRE2CJ20WFH9X04K8QPFYS",
+            "title": "Fuglelåten",
+            "slug": "fuglelaten",
+            "body": "Hør etter lyder fra siv og busker. Troster, linerler og enkelte vadefugler bruker myra som matsøk.",
+            "question": {
+                "text": "Hvorfor er myra viktig for fugler?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Den er mer stille om vinteren"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Den gir mat, skjul og hvileplass"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Fugler unngår alltid våtmark"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Den er salt"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 2,
+            "qr_token": "NUW377E9",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJ1Y9K6W700SKTGDYR",
+            "route_id": "route_01KXKRE2CJ20WFH9X04K8QPFYS",
+            "title": "Dyrespor",
+            "slug": "dyrespor",
+            "body": "I bløt torv kan du se spor etter elg, rådyr eller hare. Se etter størrelse og avstand mellom avtrykk.",
+            "question": {
+                "text": "Hva sier dyrespor oss?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Hvilke dyr som har vært der nylig"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Hvor høy skogen er"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Om det snør i morgen"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Fargen på blomster"
+                    }
+                ],
+                "correct_option_id": "opt_1"
+            },
+            "image_path": null,
+            "position": 3,
+            "qr_token": "RJEYSR3S",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJT06AKSNG3T68CV5P",
+            "route_id": "route_01KXKRE2CJ8H4TMRSEW07QEB13",
+            "title": "Kirkegården",
+            "slug": "kirkegarden",
+            "body": "Gamle gravminner forteller om slekter, yrker og tidsepoker. Les symbolene forsiktig og respekter stedet.",
+            "question": {
+                "text": "Hva er viktig når du besøker en kirkegård?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Løpe mellom gravene"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Vise respekt og ikke forstyrre"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Flytte blomster til nye graver"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Bruke stedet som piknikplass"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 1,
+            "qr_token": "PZT39FZR",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJH3DGZN6YCE639WS9",
+            "route_id": "route_01KXKRE2CJ8H4TMRSEW07QEB13",
+            "title": "Klokkertårnet",
+            "slug": "klokkertarn",
+            "body": "Kirkeklokker har i generasjoner varslet om gudstjeneste, brann og viktige hendelser i bygda.",
+            "question": {
+                "text": "Hva har kirkeklokker historisk vært brukt til?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Kun pynt"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Å varsle om gudstjeneste og viktige hendelser"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Værmelding"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Postombæring"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 2,
+            "qr_token": "H6TDMEM8",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJMJ78WFBRSFQFMREV",
+            "route_id": "route_01KXKRE2CJ8H4TMRSEW07QEB13",
+            "title": "Minnesmerket",
+            "slug": "minnesmerket",
+            "body": "Minnesteiner og plaketter minner oss om mennesker og hendelser som formet lokalsamfunnet.",
+            "question": {
+                "text": "Hvorfor reises minnesmerker?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "For å markere parkering"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "For å huske mennesker og hendelser"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "For å erstatte skilt"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "For å skjule historie"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 3,
+            "qr_token": "7TSJ2URA",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJQ7TXMS7M32PTS0JV",
+            "route_id": "route_01KXKRE2CJG0THTQEG30M1TXCE",
+            "title": "Gårdstunet",
+            "slug": "gardstunet",
+            "body": "Tunet var midtpunktet i gårdsdriften. Her møttes folk, dyr og arbeid gjennom hele året.",
+            "question": {
+                "text": "Hva var typisk for et gårdstun?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Kun en parkeringsplass"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Et midtpunkt for arbeid og liv på gården"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "En motorvei"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Et kjøpesenter"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 1,
+            "qr_token": "NWDN5BDW",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJPW30R2CCQT2TT9BW",
+            "route_id": "route_01KXKRE2CJG0THTQEG30M1TXCE",
+            "title": "Redskapsskjulet",
+            "slug": "redskapsskjulet",
+            "body": "Ljå, rive og treskeverktøy viser hvordan mat og fôr ble produsert før motorene kom.",
+            "question": {
+                "text": "Hva brukte man ofte før maskiner i jordbruket?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Smarttelefon"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Ljå, rive og håndkraft"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Droner"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Robotgravere"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 2,
+            "qr_token": "UABACX8M",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJCMKFXF94NNTVXV1X",
+            "route_id": "route_01KXKRE2CJG0THTQEG30M1TXCE",
+            "title": "Stabburet",
+            "slug": "stabburet",
+            "body": "Stabbur sto på stolper for å holde maten tørr og trygg mot skadedyr. Det var et viktig lager gjennom vinteren.",
+            "question": {
+                "text": "Hvorfor sto stabbur ofte på stolper?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "For mer skygge"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "For å beskytte mat mot fukt og skadedyr"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "For å være nærmere himmelen"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "For å se bedre"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 3,
+            "qr_token": "KWB5BS9H",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJBR6YDSNPAPS4696Z",
+            "route_id": "route_01KXKRE2CJK8S6NBM7HV5YV5YA",
+            "title": "Inngangsporten",
+            "slug": "inngangsporten",
+            "body": "Byparker gir rom for lek, hvile og møter mellom folk. De er viktige i en tett by.",
+            "question": {
+                "text": "Hvorfor er byparker viktige?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "De gjør byen mer grå"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "De gir rom for lek, hvile og møter"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "De erstatter alle hus"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "De er bare for bilister"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 1,
+            "qr_token": "BV4YUU8N",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJQYMBDCGF9JZMF9P5",
+            "route_id": "route_01KXKRE2CJK8S6NBM7HV5YV5YA",
+            "title": "Lekeplassen",
+            "slug": "lekeplassen",
+            "body": "Lekeplasser er designet for trygg aktivitet. Regler for hensyn og rydding gjelder også her.",
+            "question": {
+                "text": "Hva er lurt på en lekeplass?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Løpe ut i veien"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Følge trygge regler og rydde etter seg"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Klatre på biler"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "La søppel ligge"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 2,
+            "qr_token": "Z44ARFDR",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJAQVJ5227KT6ECJFY",
+            "route_id": "route_01KXKRE2CJK8S6NBM7HV5YV5YA",
+            "title": "Fontenen",
+            "slug": "fontenen",
+            "body": "Vannanlegg i byrom skaper stemning, demper støy og tiltrekker fugler. Ser du speilinger i vannflaten?",
+            "question": {
+                "text": "Hva kan en fontene bidra med i byen?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Mer trafikk"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Stemning, dempet støy og liv for fugler"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Mindre grønt"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Høyere fart"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 3,
+            "qr_token": "K977C48W",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJZ75A440ZDGBCEASY",
+            "route_id": "route_01KXKRE2CJ41G06T10XQCGEA5B",
+            "title": "Murarbeidet",
+            "slug": "murarbeidet",
+            "body": "Gatekunst kan fortelle om stedets identitet, humor og aktuelle temaer — ofte laget for alle å se.",
+            "question": {
+                "text": "Hva kan gatekunst gjøre?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Bare skjule vegger"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Formidle stedets identitet og temaer"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Erstatte alle museer"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Stoppe kollektivtrafikk"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 1,
+            "qr_token": "9T8D9T68",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJSX3QY6JS8VHTX4MA",
+            "route_id": "route_01KXKRE2CJ41G06T10XQCGEA5B",
+            "title": "Skiltstolpen",
+            "slug": "skiltstolpen",
+            "body": "Veiskilt og gateskilt hjelper oss å navigere. Historiske skilt kan også vise gamle gatenavn.",
+            "question": {
+                "text": "Hvorfor er skilt viktige i byen?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "De hjelper oss å navigere"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "De er bare pynt"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "De stopper været"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "De er kun for turister"
+                    }
+                ],
+                "correct_option_id": "opt_1"
+            },
+            "image_path": null,
+            "position": 2,
+            "qr_token": "YZFGDCS5",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJPABFYFBZFS4K6KXQ",
+            "route_id": "route_01KXKRE2CJ41G06T10XQCGEA5B",
+            "title": "Torget",
+            "slug": "torget",
+            "body": "Torg har vært handels- og møteplasser i århundrer. I dag er de fortsatt nav i bylivet.",
+            "question": {
+                "text": "Hva har torg tradisjonelt vært?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Parkeringskjeller"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Handels- og møteplass"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Flyplass"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Idrettshall"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 3,
+            "qr_token": "6FSNSR6B",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJ0KA56EY456RNR98P",
+            "route_id": "route_01KXKRE2CJZE0M5NZ5RJK1N57C",
+            "title": "Start",
+            "slug": "start",
+            "body": "Velkommen! Gå i eget tempo, hjelp hverandre med spørsmålene og ha det gøy.",
+            "question": {
+                "text": "Hva er lurt når man går en sporløype?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Stresse forbi alle poster"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Gå i eget tempo og hjelpe hverandre"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Gjemme skilt"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Hoppe over alle spørsmål"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 1,
+            "qr_token": "FPPZZ6US",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJ7E068DWFAG344FVF",
+            "route_id": "route_01KXKRE2CJZE0M5NZ5RJK1N57C",
+            "title": "Hjelperen",
+            "slug": "hjelperen",
+            "body": "Noen ganger er det greit å diskutere før man svarer. Samarbeid er en del av opplevelsen.",
+            "question": {
+                "text": "Er det lov å snakke sammen før man svarer?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Nei, aldri"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Ja, samarbeid er ofte en del av opplevelsen"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Bare om natten"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Bare hvis det regner"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 2,
+            "qr_token": "9WE43V2W",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJBPZ26S38R6AS9Z4P",
+            "route_id": "route_01KXKRE2CJZE0M5NZ5RJK1N57C",
+            "title": "Mål",
+            "slug": "mal",
+            "body": "Bra jobbet! Sjekk resultattavlen og se hvordan dere ligger an.",
+            "question": {
+                "text": "Hvor kan du se hvordan dere ligger an?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "På resultattavlen"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "I postkassen"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "På bussen"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "I skyen uten å se"
+                    }
+                ],
+                "correct_option_id": "opt_1"
+            },
+            "image_path": null,
+            "position": 3,
+            "qr_token": "X6XC7CHP",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJVXKCV72H6XFTTXBB",
+            "route_id": "route_01KXKRE2CJZGNNXJHJKRRS9BJ7",
+            "title": "Samling",
+            "slug": "samling",
+            "body": "Start med å bli enige om regler: hold dere sammen, vær høflige og lytt til hverandre.",
+            "question": {
+                "text": "Hva er en god startregel?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Løpe hver sin vei"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Holde seg sammen og være høflige"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Ignorere læreren"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Gjemme telefonen til andre"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 1,
+            "qr_token": "YBBTUDGH",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJD921AREQHNX3K45H",
+            "route_id": "route_01KXKRE2CJZGNNXJHJKRRS9BJ7",
+            "title": "Observasjon",
+            "slug": "observasjon",
+            "body": "Se, lytt og noter. Detaljer du oppdager her kan gjøre neste spørsmål lettere.",
+            "question": {
+                "text": "Hvorfor er observasjon nyttig?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Det gjør deg trøttere"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Det hjelper deg å merke detaljer og svare bedre"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Det er bortkastet tid"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Det ødelegger spørsmålene"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 2,
+            "qr_token": "94WF4XSQ",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        },
+        {
+            "id": "stop_01KXKRE2CJXV9RCHEGVDWHKRSJ",
+            "route_id": "route_01KXKRE2CJZGNNXJHJKRRS9BJ7",
+            "title": "Oppsummering",
+            "slug": "oppsummering",
+            "body": "Snakk om hva dere lærte. Hva overrasket dere mest?",
+            "question": {
+                "text": "Hva er nyttig etter en lærersti?",
+                "options": [
+                    {
+                        "id": "opt_1",
+                        "text": "Å glemme alt med en gang"
+                    },
+                    {
+                        "id": "opt_2",
+                        "text": "Å oppsummere hva man lærte"
+                    },
+                    {
+                        "id": "opt_3",
+                        "text": "Å slette bildene"
+                    },
+                    {
+                        "id": "opt_4",
+                        "text": "Å late som man ikke var der"
+                    }
+                ],
+                "correct_option_id": "opt_2"
+            },
+            "image_path": null,
+            "position": 3,
+            "qr_token": "33GRGZP3",
+            "status": "published",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2026-07-15T22:40:00+02:00",
+            "updated_at": "2026-07-15T22:40:00+02:00"
+        }
+    ]
 }

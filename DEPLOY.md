@@ -17,8 +17,10 @@ APP_DEBUG=false
 APP_URL=https://spor.hjellum.net
 ```
 
-6. Sørg for skrivbare mapper på serveren: `storage/data/`, `storage/logs/`, `storage/media/`.
+5. Sørg for skrivbare mapper på serveren: `storage/data/`, `storage/logs/`, `storage/media/`.
    Runtime-JSON der skal ikke overskrives ved deploy (`remoteProtect` i `deploy-manifest.json`).
+6. Ved oppstart fyller appen inn manglende løyper/poster fra `storage/examples/` (over skriver ikke eksisterende slug/id).
+   Eksempelfiler følger med i deploy.
 
 ## Deploy
 

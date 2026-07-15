@@ -23,14 +23,28 @@ abstract class SporTestCase extends TestCase
 
     protected function tearDown(): void
     {
-        foreach (['routes.json', 'stops.json', 'participants.json', 'answers.json'] as $file) {
-            $path = $this->tempDir . DIRECTORY_SEPARATOR . $file;
-            if (is_file($path)) {
-                unlink($path);
+        $this->removeTree($this->tempDir);
+    }
+
+    private function removeTree(string $path): void
+    {
+        if (!file_exists($path)) {
+            return;
+        }
+        if (is_file($path)) {
+            unlink($path);
+            return;
+        }
+        $items = scandir($path);
+        if ($items === false) {
+            return;
+        }
+        foreach ($items as $item) {
+            if ($item === '.' || $item === '..') {
+                continue;
             }
+            $this->removeTree($path . DIRECTORY_SEPARATOR . $item);
         }
-        if (is_dir($this->tempDir)) {
-            rmdir($this->tempDir);
-        }
+        rmdir($path);
     }
 }

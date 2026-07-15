@@ -71,11 +71,11 @@ Runtime-data lagres i:
 
 Disse filene er **ikke** versjonert i git (se `.gitignore`).
 
-Eksempelfiler med `schema_version` ligger i `storage/examples/` og kan kopieres manuelt ved behov:
+Eksempelfiler med `schema_version` ligger i `storage/examples/` og deployes med appen. Ved oppstart kopieres/suppleres manglende løyper og poster derfra inn i `storage/data/` (eksisterende slug/id overskrives ikke).
 
 ```bash
-copy storage\examples\routes.json storage\data\routes.json
-copy storage\examples\stops.json storage\data\stops.json
+# Regenerer examples fra seed-script (valgfritt)
+php scripts/seed-themed-routes.php
 ```
 
 ### Format
