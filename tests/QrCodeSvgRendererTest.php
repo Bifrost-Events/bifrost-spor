@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Tests;
 
 use App\Support\QrCodeSvgRenderer;
-use chillerlan\QRCode\Output\QRGdImage;
+use chillerlan\QRCode\Output\QRGdImagePNG;
 use chillerlan\QRCode\QRCode;
 use chillerlan\QRCode\QROptions;
 
@@ -30,7 +30,7 @@ final class QrCodeSvgRendererTest extends SporTestCase
 
         $url = 'https://spor.example.test/q/decode-me-token';
         $options = new QROptions([
-            'outputInterface' => QRGdImage::class,
+            'outputInterface' => QRGdImagePNG::class,
             'outputBase64' => false,
             'scale' => 8,
         ]);
