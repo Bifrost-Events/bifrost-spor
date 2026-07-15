@@ -1,0 +1,44 @@
+{
+  "description": "Bifrost Spor – filtre for deploy-package (rsync).",
+  "public_dir": "public",
+  "include": [
+    "app/",
+    "config/",
+    "public/",
+    "routes/",
+    "storage/",
+    "vendor/",
+    "composer.json",
+    "composer.lock",
+    ".env.example"
+  ],
+  "exclude": [
+    ".git",
+    ".github",
+    ".env",
+    ".env.*",
+    "node_modules",
+    "tests",
+    "*.log",
+    ".idea",
+    ".vscode",
+    "storage/data/*.json",
+    "storage/logs/*",
+    "storage/media/*"
+  ],
+  "ftpExclude": [
+    ".git",
+    ".github",
+    "node_modules",
+    ".env",
+    "storage/data/*.json",
+    "storage/logs/*",
+    "storage/media/*"
+  ],
+  "remoteProtect": [
+    ".env",
+    "storage/data/",
+    "storage/logs/",
+    "storage/media/"
+  ]
+}

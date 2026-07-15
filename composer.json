@@ -1,0 +1,33 @@
+{
+    "name": "bifrost-events/bifrost-spor",
+    "description": "Bifrost Spor — selvstendig MVP for digitale løyper og poster",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "chillerlan/php-qrcode": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Controller\\": "app/03-controller/",
+            "App\\Domain\\": "app/01-domain/",
+            "App\\Contracts\\": "app/Contracts/",
+            "App\\Repositories\\": "app/05-repositories/",
+            "App\\Service\\": "app/04-services/",
+            "App\\Support\\": "app/06-support/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
