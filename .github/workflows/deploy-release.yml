@@ -1,4 +1,4 @@
-# Release-deploy for bifrost-spor (test / production).
+# Release-deploy for bifrost-spor.
 name: Deploy release
 
 on:
@@ -9,8 +9,7 @@ on:
         required: true
         type: choice
         options:
-          - test
-          - production
+          - spor_hjellum_net
       release_id:
         description: Release ID fra release-manifest
         required: true
